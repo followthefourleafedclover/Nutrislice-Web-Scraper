@@ -1,17 +1,18 @@
 # Nutrislice
 A simple script that sends the Glastongury High School Lunch Menu today and tomorrow. Made from scratch.
 
-*Args
+* Args
  - Program does not take any arguments. 
 
-*Out 
+* Out 
 - Program displays status code of GET request to Nutrislice API, and sends an email to the intended recepient of the content of today's lunch menu at Glastonbury High School as well as tomorrow's lunch menu as well. 
 
-*Resources
+* Resources
 - Only used past projects to understand smtplib. 
 
 # API
 https://glastonburyus.nutrislice.com/menu/api/weeks/school/glastonbury-high/menu-type/lunch/2022/08/29/ 
+
 This is a read-only API, which means only GET, HEAD, and OPTIONS requests are accepted.
 
 # Future Updates & Additional Comments
