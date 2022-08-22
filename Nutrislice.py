@@ -31,9 +31,9 @@ class getMenu:
             return items
     
     def SEND_EMAIL(self, info, date):
-        user = 'sreevarpatiyara1@gmail.com'
-        pw = 'bpixskdtfhcypxpx'
-        recv = 'sreevarpatiyara@gmail.com'
+        user = #Configured email address 
+        pw = #email OAuth password 
+        recv = #email address of recepient
         if isinstance(info, str):
             body = info
         else:
